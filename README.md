@@ -186,11 +186,18 @@ IoU = 교집합 영역 / 합집합 영역
 | --- | --- |
 | ![국도 정차 차량 감지](images/national_stopped_vehicle.png) | ![국도 불법 주정차 감지](images/national_illegal_parking.png) |
 
+> 본인은 국도 환경의 정차 차량 및 불법 주정차 판단 로직을 담당했습니다.
+
 ### 고속도로 환경
 
-| 정차 차량 감지 | 제한 차로 트럭 감지 |
-| --- | --- |
-| ![고속도로 정차 차량 감지](images/highway_stopped_vehicle.png) | ![고속도로 트럭 감지](images/highway_truck_detection.png) |
+<p align="center">
+  <img src="images/highway_stopped_vehicle.png" width="42%">
+  <img src="images/highway_truck_detection.png" width="42%">
+</p>
+
+<p align="center">
+  정차 차량 감지 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 제한 차로 트럭 감지
+</p>
 
 ---
 
