@@ -295,8 +295,12 @@ yolo-road-vehicle-detection/
 
 ---
 
-## 📄 참고 자료
+## 📄 발표 자료
 
-- 프로젝트 발표 자료
-- YOLO 모델 학습 결과
-- 국도 및 고속도로 시연 영상
+전체 시스템 설계 및 검증 과정은 아래 발표 자료에서 확인할 수 있습니다.
+
+<p align="center">
+  <a href="docs/260630_yolo_vehicle_detection.pdf">
+    <b>📑 프로젝트 발표 자료 보기</b>
+  </a>
+</p>
