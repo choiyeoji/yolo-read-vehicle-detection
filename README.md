@@ -209,13 +209,43 @@ IoU = 교집합 영역 / 합집합 영역
 
 ## 🎥 시연 영상
 
-### 국도 차량 감지
+### 🛣️ 국도 환경
 
-![국도 차량 감지 시연](images/national_road_demo.gif)
+<table>
+  <tr>
+    <th>정차 차량 감지</th>
+    <th>불법 주정차 감지</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="videos/national_stopped_vehicle.mp4">
+        <img src="images/national_stopped_vehicle.png" width="380">
+      </a>
+    </td>
+    <td align="center">
+      <a href="videos/national_illegal_parking.mp4">
+        <img src="images/national_illegal_parking.png" width="380">
+      </a>
+    </td>
+  </tr>
+</table>
 
-### 고속도로 차량 감지
+<p align="center">
+  이미지를 클릭하면 시연 영상을 확인할 수 있습니다.
+</p>
 
-![고속도로 차량 감지 시연](images/highway_demo.gif)
+### 🛤️ 고속도로 환경
+
+<p align="center">
+  <a href="videos/highway_demo.mp4">
+    <img src="images/highway_stopped_vehicle.png" width="600">
+  </a>
+</p>
+
+<p align="center">
+  <b>정차 차량 및 제한 차로 트럭 감지</b><br>
+  이미지를 클릭하면 시연 영상을 확인할 수 있습니다.
+</p>
 
 ---
 
@@ -258,9 +288,11 @@ yolo-road-vehicle-detection/
 │   ├── national_stopped_vehicle.png
 │   ├── national_illegal_parking.png
 │   ├── highway_stopped_vehicle.png
-│   ├── highway_truck_detection.png
-│   ├── national_road_demo.gif
-│   └── highway_demo.gif
+│   └── highway_truck_detection.png
+├── videos/
+│   ├── national_stopped_vehicle.mp4
+│   ├── national_illegal_parking.mp4
+│   └── highway_demo.mp4
 ├── docs/
 │   └── project_presentation.pdf
 └── requirements.txt
