@@ -182,29 +182,39 @@ IoU = 교집합 영역 / 합집합 영역
 
 ### 국도 환경
 
-| 정차 차량 감지 | 불법 주정차 감지 |
-| --- | --- |
-| <img src="images/national_stopped_vehicle.png" width="100%"> | <img src="images/national_illegal_parking.png" width="100%"> |
+<table width="100%">
+  <tr>
+    <th width="50%">정차 차량 감지</th>
+    <th width="50%">불법 주정차 감지</th>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="images/national_stopped_vehicle.png" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="images/national_illegal_parking.png" width="100%">
+    </td>
+  </tr>
+</table>
 
 > 본인은 국도 환경의 정차 차량 및 불법 주정차 판단 로직을 담당했습니다.
 
 ### 고속도로 환경
 
-<table>
+<table width="100%">
   <tr>
-    <th>정차 차량 감지</th>
-    <th>제한 차로 트럭 감지</th>
+    <th width="50%">정차 차량 감지</th>
+    <th width="50%">제한 차로 트럭 감지</th>
   </tr>
   <tr>
-    <td align="center">
-      <img src="images/highway_stopped_vehicle.png" width="360">
+    <td align="center" width="50%">
+      <img src="images/highway_stopped_vehicle.png" width="100%">
     </td>
-    <td align="center">
-      <img src="images/highway_truck_detection.png" width="360">
+    <td align="center" width="50%">
+      <img src="images/highway_truck_detection.png" width="100%">
     </td>
   </tr>
 </table>
-
 ---
 
 ## 🎥 시연 영상
