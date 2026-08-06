@@ -211,41 +211,22 @@ IoU = 교집합 영역 / 합집합 영역
 
 ### 🛣️ 국도 환경
 
-<table>
-  <tr>
-    <th>정차 차량 감지</th>
-    <th>불법 주정차 감지</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="videos/national_stopped_vehicle.mp4">
-        <img src="images/national_stopped_vehicle.png" width="380">
-      </a>
-    </td>
-    <td align="center">
-      <a href="videos/national_illegal_parking.mp4">
-        <img src="images/national_illegal_parking.png" width="380">
-      </a>
-    </td>
-  </tr>
-</table>
+#### 정차 차량 감지
 
-<p align="center">
-  이미지를 클릭하면 시연 영상을 확인할 수 있습니다.
-</p>
+https://github.com/user-attachments/assets/https://github.com/user-attachments/assets/a1df30c2-be1d-4da5-b8ce-9798ebbe565e
+
+#### 불법 주정차 감지
+
+https://github.com/user-attachments/assets/https://github.com/user-attachments/assets/9cb2302e-b36d-47e5-945d-b8f014c61369
+
+
 
 ### 🛤️ 고속도로 환경
 
-<p align="center">
-  <a href="videos/highway_demo.mp4">
-    <img src="images/highway_stopped_vehicle.png" width="600">
-  </a>
-</p>
+#### 정차 차량 및 제한 차로 트럭 감지
 
-<p align="center">
-  <b>정차 차량 및 제한 차로 트럭 감지</b><br>
-  이미지를 클릭하면 시연 영상을 확인할 수 있습니다.
-</p>
+https://github.com/user-attachments/assets/https://github.com/user-attachments/assets/81df3ba5-5faa-498a-91e8-7b72ed72e4f7
+
 
 ---
 
