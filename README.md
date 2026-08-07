@@ -370,38 +370,32 @@ python src/highway_vehicle_detection.py
 
 <br>
 
-## 📂 프로젝트 구조
+## 📂 소스코드 및 모델 구조
+
+국도와 고속도로 환경의 차량 감지 소스코드를 분리하고, 학습 완료 모델을 별도의 `models` 폴더에서 관리하도록 구성했습니다.
 
 ```text
-yolo-road-vehicle-detection/
-├── src/
-│   ├── national_road_vehicle_detection.py
-│   └── highway_vehicle_detection.py
-├── models/
-│   ├── vehicle5_yolo11n_e250_best.pt
-│   └── vehicle5_yolo11n_e250.onnx
-├── images/
-│   ├── national_stopped_vehicle.png
-│   ├── national_illegal_parking.png
-│   ├── highway_stopped_vehicle.png
-│   └── highway_truck_detection.png
-├── docs/
-│   ├── 260630_yolo_vehicle_detection.pptx
-│   └── execution_guide.txt
-├── README.md
-└── .gitignore
+src/
+├── national_road_vehicle_detection.py
+└── highway_vehicle_detection.py
+
+models/
+├── vehicle5_yolo11n_e250_best.pt
+└── vehicle5_yolo11n_e250.onnx
 ```
 
-### 폴더 설명
+### 주요 파일
 
-| 폴더 | 내용 |
+| 파일 | 내용 |
 | --- | --- |
-| `src/` | 국도 및 고속도로 환경의 차량 감지 Python 소스코드 |
-| `models/` | 학습 완료 PyTorch 모델과 ONNX 모델 |
-| `images/` | 프로젝트 실행 결과 이미지 |
-| `docs/` | 프로젝트 발표자료와 실행방법 설명서 |
+| `national_road_vehicle_detection.py` | 국도 환경의 정차 차량 및 불법 주정차 감지 프로그램 |
+| `highway_vehicle_detection.py` | 고속도로 정차 차량 및 제한 차로 트럭 감지 프로그램 |
+| `vehicle5_yolo11n_e250_best.pt` | 차량 5개 클래스로 학습한 YOLO11n PyTorch 모델 |
+| `vehicle5_yolo11n_e250.onnx` | TensorRT Engine 변환을 위한 ONNX 모델 |
 
-> 실행 중 생성되는 `captures`, `truck_screenshots` 폴더와 TensorRT Engine 파일은 저장소에 포함하지 않습니다.
+> TensorRT Engine 파일은 실행하는 NVIDIA Jetson 환경에서 생성하며 저장소에는 포함하지 않습니다.
+
+> 실행 중 생성되는 `captures`, `truck_screenshots` 폴더도 저장소에서 제외했습니다.
 
 <br>
 
