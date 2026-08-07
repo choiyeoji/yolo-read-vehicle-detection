@@ -246,9 +246,11 @@ EMERGENCY 경고 및 화면 저장
 
 <br>
 
-## 📊 실행 결과
+## 📊 실행 결과 및 시연 영상
 
-### 국도 환경
+아래 실행 결과 이미지를 클릭하면 해당 시연 영상을 확인할 수 있습니다.
+
+### 🛣️ 국도 환경
 
 <table width="100%">
   <tr>
@@ -257,52 +259,37 @@ EMERGENCY 경고 및 화면 저장
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./images/national_stopped_vehicle.png" width="100%">
+      <a href="https://youtu.be/yxEvvyqFN0k?si=XMrRmaJliVshXU0R">
+        <img src="./images/national_stopped_vehicle.png" width="100%">
+      </a>
     </td>
     <td align="center" width="50%">
-      <img src="./images/national_illegal_parking.png" width="100%">
+      <a href="https://youtu.be/Cwi2UJwP-YQ?si=O3UFOSYM_0KgPH_a">
+        <img src="./images/national_illegal_parking.png" width="100%">
+      </a>
     </td>
   </tr>
 </table>
 
-> 본인은 국도 환경의 정차 차량 및 불법 주정차 판단 로직을 담당했습니다.
-
-### 고속도로 환경
-
-<table width="100%">
-  <tr>
-    <th width="50%">정차 차량 감지</th>
-    <th width="50%">제한 차로 트럭 감지</th>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="./images/highway_stopped_vehicle.png" width="100%">
-    </td>
-    <td align="center" width="50%">
-      <img src="./images/highway_truck_detection.png" width="100%">
-    </td>
-  </tr>
-</table>
-
-<br>
-
-## 🎥 시연 영상
-
-### 🛣️ 국도 환경
-
-#### 정차 차량 감지
-
-https://github.com/user-attachments/assets/a1df30c2-be1d-4da5-b8ce-9798ebbe565e
-
-#### 불법 주정차 감지
-
-https://github.com/user-attachments/assets/9cb2302e-b36d-47e5-945d-b8f014c61369
+<p align="center">
+  <i>이미지를 클릭하면 유튜브에서 시연 영상을 확인할 수 있습니다.</i>
+</p>
 
 ### 🛤️ 고속도로 환경
 
-#### 정차 차량 및 제한 차로 트럭 감지
+<p align="center">
+  <a href="https://youtu.be/KzHBiXvf6Ag?si=kEQ8DWGS7zdO7gw7">
+    <img src="./images/highway_truck_detection.png" width="700">
+  </a>
+</p>
 
-https://github.com/user-attachments/assets/81df3ba5-5faa-498a-91e8-7b72ed72e4f7
+<p align="center">
+  <b>정차 차량 및 제한 차로 트럭 감지</b>
+</p>
+
+<p align="center">
+  <i>이미지를 클릭하면 유튜브에서 시연 영상을 확인할 수 있습니다.</i>
+</p>
 
 <br>
 
