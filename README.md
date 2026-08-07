@@ -277,18 +277,27 @@ EMERGENCY 경고 및 화면 저장
 
 ### 🛤️ 고속도로 환경
 
-<p align="center">
-  <a href="https://youtu.be/KzHBiXvf6Ag?si=kEQ8DWGS7zdO7gw7">
-    <img src="./images/highway_truck_detection.png" width="700">
-  </a>
-</p>
+<table width="100%">
+  <tr>
+    <th width="50%">정차 차량 감지</th>
+    <th width="50%">제한 차로 트럭 감지</th>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://youtu.be/KzHBiXvf6Ag?si=kEQ8DWGS7zdO7gw7">
+        <img src="./images/highway_stopped_vehicle.png" width="100%">
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://youtu.be/KzHBiXvf6Ag?si=kEQ8DWGS7zdO7gw7">
+        <img src="./images/highway_truck_detection.png" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <b>정차 차량 및 제한 차로 트럭 감지</b>
-</p>
-
-<p align="center">
-  <i>이미지를 클릭하면 유튜브에서 시연 영상을 확인할 수 있습니다.</i>
+  <i>이미지를 클릭하면 고속도로 정차 차량 및 제한 차로 트럭 감지 시연 영상을 확인할 수 있습니다.</i>
 </p>
 
 <br>
